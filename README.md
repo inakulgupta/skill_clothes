@@ -27,16 +27,26 @@ step5- order booking
 ## Example of actual chat with bot - for dry_cleaning intent
 
 " type your answer: hi
+
 -> Welcome, to our Cloth service catbot.
+
  Here in chat you can ask for
+ 
  1. Dry Cleaning Services
+ 
  2. Tailoring Services
+ 
 type your answer: dry cleaning
+
 -> Welcome, to our chatbot to assist you with your dry cleaning needs.
  Please provide your mobile number and address/location to pick up the clothes
+ 
 type your answer: 9901039005 , E1010 ozone evergreens
+
 -> we charge $5 per clothing piece as flat rate. Please let us know how many clothes do you have
+
 type your answer: 51
+
 -> Thanks for connecting with us for you dry cleaning/tailoring needs"
 
 
@@ -56,27 +66,38 @@ step5- order booking
 ## Example of actual chat with bot - for custom_tailoring intent
 
 " type your answer: hi
+
 -> Welcome, to our Cloth service catbot.
  Here in chat you can ask for
  1. Dry Cleaning Services
  2. Tailoring Services
+ 
 type your answer: tailoring
+
 -> Welcome to our custom tailoring services, we would need some more information to process your order. Who is this for
  1) Male
  2) Female
+ 
 type your answer: male
+
 -> Great, what do you want to get tailored
  1. Upper Wear   $50/piece
  2. Lower Wear   $40/piece
  3. Suits, Formals etc. 150/pair
+ 
  Please let us know what do you want to get tailored
+ 
 type your answer: shirt
+
 -> Great, We will tailor a brilliant upper wear for you, Please let us know your chest size and choice of fit slim/regular
+
 type your answer: 39
+
 -> Thanks for connecting with us for your tailoring needs, we have your information, we will deliver it to you"
 
 
 ## buy_clothes-Chat bot flow
+
 Step1- Identification of greeting and prompting the customer to mention their query
 
 Step2 - Identification of customer intent using BERT classification model
@@ -86,11 +107,14 @@ step3 - Letting the customer know that this is not a sales bot but provide speci
 ## Example of actual chat with bot - for buy_clothes intent
 
 " type your answer: hi
+
 -> Welcome, to our Cloth service catbot.
  Here in chat you can ask for
  1. Dry Cleaning Services
  2. Tailoring Services
+ 
 type your answer: buy clothes
+
 -> Welcome, to our chat bot service, we are sorry to inform that we do not sell clothes, we provide specialised services such as dry cleaning and custom tailoring"
 
 ## Quickstart
