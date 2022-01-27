@@ -2,7 +2,7 @@
 # Skill -Clothes
 
 ## Description
-We have built a chatbot which handles quesries pertaining to dry-cleaning and custom-tailoring needs of the customers and asks customer for neccesory information before completing the order booking.
+We have built a chatbot which handles queries pertaining to dry-cleaning and custom-tailoring needs of the customers and asks customer for neccesory information before completing the order booking.
 
 In order to achive this, we have created a BERT based multi intent classification model, which uses a model pre-trained on Hugging-Face dataset. This uses the concept of transfer learning and word embedding in order to maximise our learning from limited training data available for training the model.
 
