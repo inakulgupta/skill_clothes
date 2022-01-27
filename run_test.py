@@ -1,6 +1,6 @@
 import random
 
-from scenario.main import actor
+from scenario.plot import actor
 import run_interactive
 
 random.seed(314)
