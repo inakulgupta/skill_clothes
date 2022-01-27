@@ -15,9 +15,13 @@ Our NLP based Intent classification model has three intents pertaining to diffre
 
 ## dry_cleaning-Chat bot flow
 Step1- Identification of greeting and prompting the customer to mention their query
+
 Step2 - Identification of customer intent using BERT classification model
+
 step3 - Asking customer for mobile number and address
+
 step4- Mention of pricing to the customer and asking for number of clothing items
+
 step5- order booking
 
 ## Example of actual chat with bot - for dry_cleaning intent
@@ -38,10 +42,15 @@ type your answer: 51
 
 ## custom_tailoring-Chat bot flow
 Step1- Identification of greeting and prompting the customer to mention their query
+
 Step2 - Identification of customer intent using BERT classification model
+
 step3 - Asking customer about gender and prompting with personalised queries which are followed next.
+
 step4- checking with customer on what they want to get tailored and letting them know about the prices
+
 step5- asking about the sizes and fitting prefrences.
+
 step5- order booking
 
 ## Example of actual chat with bot - for custom_tailoring intent
@@ -69,7 +78,9 @@ type your answer: 39
 
 ## buy_clothes-Chat bot flow
 Step1- Identification of greeting and prompting the customer to mention their query
+
 Step2 - Identification of customer intent using BERT classification model
+
 step3 - Letting the customer know that this is not a sales bot but provide specific cothing services like dry cleaning and custom-tailoring
 
 ## Example of actual chat with bot - for buy_clothes intent
